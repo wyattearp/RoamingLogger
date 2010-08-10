@@ -54,13 +54,14 @@ public class RoamingLogger extends Activity {
                 				+ "Network Country ISO (NETcISO): '" + tm.getNetworkCountryIso() + "'\n"
                 				+ "SIM Country ISO (SIMcISO): '" + tm.getSimCountryIso() + "'\n";
                 
-                //tv.setText(myText);
-                emailBody.setText(myText);
+                tv.setText(myText);
+                //emailBody.setText(myText);
                 
         }
         
-        
         this.setContentView(tv);
+        //this.addContentView(tv, null);
+        //this.addContentView(emailBody, null);
     }
     
 	/**
