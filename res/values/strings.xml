@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, RoamingLogger!</string>
+    <string name="hello">Crappy RoamingLogger!</string>
     <string name="app_name">RoamingLogger</string>
 	<string name="btnEmailSend">Send</string>
-	<string name="lblEmailBody">S</string>
+	<string name="txtViewEmailBody">Results:\n</string>
+	<string name="txtViewResults"></string>
 </resources>

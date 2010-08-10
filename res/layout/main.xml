@@ -10,10 +10,15 @@
     android:text="@string/hello"
     />
     <TextView
+        android:id="@+id/txtViewResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewResults"/>
+    <TextView
         android:id="@+id/txtViewEmailBody"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/lblEmailBody"/>
+        android:text="@string/txtViewEmailBody"/>
         
     <Button android:id="@+id/btnEmailSend"
             android:layout_column="0"
